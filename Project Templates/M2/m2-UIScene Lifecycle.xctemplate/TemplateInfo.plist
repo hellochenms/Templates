@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kind</key>
+	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
+	<key>Identifier</key>
+	<string>xyz.chenms.oc.demo.sceneLifecycleApplication</string>
+	<key>Ancestors</key>
+	<array>
+		<string>xyz.chenms.oc.demo.cocoaTouchApplicationBase</string>
+	</array>
+	<key>Nodes</key>
+	<array>
+		<string>Info.plist:UIApplicationSceneManifest</string>
+	</array>
+	<key>Definitions</key>
+	<dict>
+		<key>Info.plist:UIApplicationSceneManifest</key>
+		<dict>
+			<key>Beginning</key>
+			<string>
+            &lt;key&gt;UIApplicationSceneManifest&lt;/key&gt;
+            &lt;dict&gt;
+                &lt;key&gt;UIApplicationSupportsMultipleScenes&lt;/key&gt;
+                &lt;false/&gt;
+                &lt;key&gt;UISceneConfigurations&lt;/key&gt;
+                &lt;dict&gt;
+                    &lt;key&gt;UIWindowSceneSessionRoleApplication&lt;/key&gt;
+                    &lt;array&gt;
+                        &lt;dict&gt;
+                            &lt;key&gt;UISceneConfigurationName&lt;/key&gt;
+                            &lt;string&gt;Default Configuration&lt;/string&gt;
+                            &lt;key&gt;UISceneDelegateClassName&lt;/key&gt;
+                            &lt;string&gt;___VARIABLE_moduleNamePrefixForClasses:XML___SceneDelegate&lt;/string&gt;
+</string>
+			<key>End</key>
+			<string>
+                        &lt;/dict&gt;
+                    &lt;/array&gt;
+                &lt;/dict&gt;
+            &lt;/dict&gt;
+</string>
+			<key>Indent</key>
+			<integer>2</integer>
+		</dict>
+		<key>Info.plist:UIApplicationSceneManifest:UISceneStoryboardFile</key>
+		<string>
+&lt;key&gt;UISceneStoryboardFile&lt;/key&gt;
+&lt;string&gt;Main&lt;/string&gt;
+</string>
+	</dict>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>languageChoice</string>
+			<key>Units</key>
+			<dict>
+				<key>Objective-C</key>
+				<array>
+					<dict>
+						<key>Nodes</key>
+						<array>
+							<string>SceneDelegate.h:comments</string>
+							<string>SceneDelegate.h:imports:importCocoa</string>
+							<string>SceneDelegate.h:interface(SceneDelegate : UIResponder &lt;UIWindowSceneDelegate&gt;)</string>
+							<string>SceneDelegate.h:interface:window</string>
+							<string>SceneDelegate.m:imports:importHeader:SceneDelegate.h</string>
+							<string>SceneDelegate.m:extension</string>
+							<string>SceneDelegate.m:implementation:synthesize</string>
+						</array>
+						<key>Definitions</key>
+						<dict>
+							<key>AppDelegate.h:interface:window</key>
+							<string></string>
+							<key>SceneDelegate.h:interface:window</key>
+							<string>@property (strong, nonatomic) UIWindow * window;</string>
+						</dict>
+					</dict>
+					<dict>
+						<key>Nodes</key>
+						<array>
+							<string>SceneDelegate.m:imports:importHeader:AppDelegate.h</string>
+						</array>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
